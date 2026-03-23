@@ -1,0 +1,38 @@
+name: Weekly Sleeper Data Update
+
+on:
+  schedule:
+    # This runs the script every Tuesday at 12:00 PM UTC (which is 6:00 AM Mountain Time)
+    - cron: '0 12 * * 2'
+  workflow_dispatch: 
+    # This line adds a button so you can manually trigger it anytime you want!
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests
+
+      - name: Run the Python script
+        run: python data_fetcher.py
+
+      - name: Commit and push the new data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          # If there are no changes, it skips the commit gracefully
+          git commit -m "Weekly automated data update" || exit 0
+          git push
