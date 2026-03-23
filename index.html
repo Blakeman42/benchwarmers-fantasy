@@ -3,41 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>League Hub | BUSH Power Rankings</title>
+    <title>League Hub | Advanced Fantasy</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
             <h1>League Hub</h1>
-            <p>Official BUSH Power Rankings & Advanced Metrics</p>
+            <p id="week-subtitle">Loading Week Data...</p>
         </div>
     </header>
 
     <main class="container">
-        <section class="rankings-section">
-            <h2>🏆 Power Rankings</h2>
+        <div class="grid-2">
+            <section class="card">
+                <h2>🗞️ Last Week's Recap</h2>
+                <div id="recap-content">
+                    <p>Loading recap...</p>
+                </div>
+            </section>
+            
+            <section class="card">
+                <h2>📈 Playoff Odds</h2>
+                <table class="simple-table">
+                    <thead><tr><th>Team</th><th>Make Playoffs (%)</th></tr></thead>
+                    <tbody id="odds-body"></tbody>
+                </table>
+            </section>
+        </div>
+
+        <section class="card mt-2">
+            <h2>⚔️ This Week's Matchups</h2>
+            <div class="matchup-grid" id="matchups-container">
+                <p>Loading matchups...</p>
+            </div>
+        </section>
+
+        <section class="card mt-2">
+            <h2>🏆 BUSH Power Rankings</h2>
             <div class="table-container">
-                <table id="rankings-table">
+                <table>
                     <thead>
                         <tr>
-                            <th>Rank</th>
-                            <th>Team</th>
-                            <th>BUSH Score</th>
-                            <th>Roster (AVG)</th>
-                            <th>Perform (WRank)</th>
-                            <th>Real Wins</th>
-                            <th>Exp. Wins</th>
-                            <th>All-Play %</th>
+                            <th>Rank</th><th>Team</th><th>BUSH Score</th><th>Roster (AVG)</th><th>Real Wins</th>
                         </tr>
                     </thead>
-                    <tbody id="table-body">
-                        </tbody>
+                    <tbody id="rankings-body"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="card mt-2">
+            <h2>📚 All-Time History Book</h2>
+            <div class="table-container">
+                <table class="simple-table">
+                    <thead><tr><th>Team</th><th>All-Time Wins</th><th>Losses</th><th>Win %</th></tr></thead>
+                    <tbody id="history-body"></tbody>
                 </table>
             </div>
         </section>
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>
