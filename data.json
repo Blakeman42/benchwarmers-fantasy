@@ -1,1 +1,240 @@
-[{"BUSH RANK":1,"Team":"BlakedBeans","BUSH":3.42,"AVG":1.33,"WRank":5.5,"RealWins":0.0,"Expected Wins":0,"RecordvsAll Win%":0,"FC":1,"FFW":2,"Sleeper":1},{"BUSH RANK":2,"Team":"styell702","BUSH":4.25,"AVG":3.0,"WRank":5.5,"RealWins":0.0,"Expected Wins":0,"RecordvsAll Win%":0,"FC":3,"FFW":1,"Sleeper":5},{"BUSH RANK":3,"Team":"Papabird31","BUSH":4.92,"AVG":4.33,"WRank":5.5,"RealWins":0.0,"Expected Wins":0,"RecordvsAll Win%":0,"FC":6,"FFW":4,"Sleeper":3},{"BUSH RANK":4,"Team":"bromero702","BUSH":5.08,"AVG":4.67,"WRank":5.5,"RealWins":0.0,"Expected Wins":0,"RecordvsAll Win%":0,"FC":4,"FFW":3,"Sleeper":7},{"BUSH RANK":5,"Team":"daxwax18","BUSH":5.25,"AVG":5.0,"WRank":5.5,"RealWins":0.0,"Expected Wins":0,"RecordvsAll Win%":0,"FC":2,"FFW":5,"Sleeper":8},{"BUSH RANK":6,"Team":"pac35","BUSH":5.42,"AVG":5.33,"WRank":5.5,"RealWins":0.0,"Expected Wins":0,"RecordvsAll Win%":0,"FC":8,"FFW":6,"Sleeper":2},{"BUSH RANK":7,"Team":"jharrop35","BUSH":6.25,"AVG":7.0,"WRank":5.5,"RealWins":0.0,"Expected Wins":0,"RecordvsAll Win%":0,"FC":5,"FFW":7,"Sleeper":9},{"BUSH RANK":8,"Team":"pmintheam","BUSH":6.42,"AVG":7.33,"WRank":5.5,"RealWins":0.0,"Expected Wins":0,"RecordvsAll Win%":0,"FC":10,"FFW":8,"Sleeper":4},{"BUSH RANK":9,"Team":"brodyb9332","BUSH":6.75,"AVG":8.0,"WRank":5.5,"RealWins":0.0,"Expected Wins":0,"RecordvsAll Win%":0,"FC":9,"FFW":9,"Sleeper":6},{"BUSH RANK":10,"Team":"CashJames23","BUSH":7.25,"AVG":9.0,"WRank":5.5,"RealWins":0.0,"Expected Wins":0,"RecordvsAll Win%":0,"FC":7,"FFW":10,"Sleeper":10}]
+{
+    "current_week": 1,
+    "rankings": [
+        {
+            "BUSH RANK": 1,
+            "Team": "BlakedBeans",
+            "BUSH": 1.5,
+            "AVG": 2.1,
+            "WRank": 1,
+            "RealWins": 0,
+            "Expected Wins": 0.5,
+            "RecordvsAll Win%": 0.5
+        },
+        {
+            "BUSH RANK": 2,
+            "Team": "styell702",
+            "BUSH": 2.5,
+            "AVG": 3.1,
+            "WRank": 2,
+            "RealWins": 0,
+            "Expected Wins": 0.5,
+            "RecordvsAll Win%": 0.5
+        },
+        {
+            "BUSH RANK": 3,
+            "Team": "daxwax18",
+            "BUSH": 3.5,
+            "AVG": 4.1,
+            "WRank": 3,
+            "RealWins": 0,
+            "Expected Wins": 0.5,
+            "RecordvsAll Win%": 0.5
+        },
+        {
+            "BUSH RANK": 4,
+            "Team": "bromero702",
+            "BUSH": 4.5,
+            "AVG": 5.1,
+            "WRank": 4,
+            "RealWins": 0,
+            "Expected Wins": 0.5,
+            "RecordvsAll Win%": 0.5
+        },
+        {
+            "BUSH RANK": 5,
+            "Team": "Papabird31",
+            "BUSH": 5.5,
+            "AVG": 6.1,
+            "WRank": 5,
+            "RealWins": 0,
+            "Expected Wins": 0.5,
+            "RecordvsAll Win%": 0.5
+        },
+        {
+            "BUSH RANK": 6,
+            "Team": "pac35",
+            "BUSH": 6.5,
+            "AVG": 7.1,
+            "WRank": 6,
+            "RealWins": 0,
+            "Expected Wins": 0.5,
+            "RecordvsAll Win%": 0.5
+        },
+        {
+            "BUSH RANK": 7,
+            "Team": "pmintheam",
+            "BUSH": 7.5,
+            "AVG": 8.1,
+            "WRank": 7,
+            "RealWins": 0,
+            "Expected Wins": 0.5,
+            "RecordvsAll Win%": 0.5
+        },
+        {
+            "BUSH RANK": 8,
+            "Team": "jharrop35",
+            "BUSH": 8.5,
+            "AVG": 9.1,
+            "WRank": 8,
+            "RealWins": 0,
+            "Expected Wins": 0.5,
+            "RecordvsAll Win%": 0.5
+        },
+        {
+            "BUSH RANK": 9,
+            "Team": "brodyb9332",
+            "BUSH": 9.5,
+            "AVG": 10.1,
+            "WRank": 9,
+            "RealWins": 0,
+            "Expected Wins": 0.5,
+            "RecordvsAll Win%": 0.5
+        },
+        {
+            "BUSH RANK": 10,
+            "Team": "CashJames23",
+            "BUSH": 10.5,
+            "AVG": 11.1,
+            "WRank": 10,
+            "RealWins": 0,
+            "Expected Wins": 0.5,
+            "RecordvsAll Win%": 0.5
+        }
+    ],
+    "matchups": [],
+    "recap": {
+        "high_score": null,
+        "low_score": null,
+        "closest": null,
+        "blowout": null
+    },
+    "history": [
+        {
+            "Team": "BlakedBeans",
+            "Wins": 36,
+            "Losses": 20,
+            "WinPct": 0.643
+        },
+        {
+            "Team": "bromero702",
+            "Wins": 30,
+            "Losses": 26,
+            "WinPct": 0.536
+        },
+        {
+            "Team": "styell702",
+            "Wins": 29,
+            "Losses": 27,
+            "WinPct": 0.518
+        },
+        {
+            "Team": "brodyb9332",
+            "Wins": 29,
+            "Losses": 27,
+            "WinPct": 0.518
+        },
+        {
+            "Team": "Papabird31",
+            "Wins": 28,
+            "Losses": 28,
+            "WinPct": 0.5
+        },
+        {
+            "Team": "jharrop35",
+            "Wins": 26,
+            "Losses": 30,
+            "WinPct": 0.464
+        },
+        {
+            "Team": "CashJames23",
+            "Wins": 26,
+            "Losses": 30,
+            "WinPct": 0.464
+        },
+        {
+            "Team": "pmintheam",
+            "Wins": 22,
+            "Losses": 34,
+            "WinPct": 0.393
+        },
+        {
+            "Team": "daxwax18",
+            "Wins": 21,
+            "Losses": 21,
+            "WinPct": 0.5
+        },
+        {
+            "Team": "pac35",
+            "Wins": 9,
+            "Losses": 5,
+            "WinPct": 0.643
+        },
+        {
+            "Team": "dakhass10",
+            "Wins": 8,
+            "Losses": 6,
+            "WinPct": 0.571
+        },
+        {
+            "Team": "cpisciotta",
+            "Wins": 8,
+            "Losses": 6,
+            "WinPct": 0.571
+        },
+        {
+            "Team": "smokinrealtor12",
+            "Wins": 4,
+            "Losses": 10,
+            "WinPct": 0.286
+        },
+        {
+            "Team": "OPRAHWINDFURY4",
+            "Wins": 4,
+            "Losses": 10,
+            "WinPct": 0.286
+        }
+    ],
+    "odds": [
+        {
+            "Team": "BlakedBeans",
+            "Odds": 50.0
+        },
+        {
+            "Team": "styell702",
+            "Odds": 50.0
+        },
+        {
+            "Team": "daxwax18",
+            "Odds": 50.0
+        },
+        {
+            "Team": "bromero702",
+            "Odds": 50.0
+        },
+        {
+            "Team": "Papabird31",
+            "Odds": 50.0
+        },
+        {
+            "Team": "pac35",
+            "Odds": 50.0
+        },
+        {
+            "Team": "pmintheam",
+            "Odds": 50.0
+        },
+        {
+            "Team": "jharrop35",
+            "Odds": 50.0
+        },
+        {
+            "Team": "brodyb9332",
+            "Odds": 50.0
+        },
+        {
+            "Team": "CashJames23",
+            "Odds": 50.0
+        }
+    ]
+}
